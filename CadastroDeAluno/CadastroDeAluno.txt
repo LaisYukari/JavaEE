@@ -1,0 +1,2 @@
+Aluno, Nome = Lais, CPF = 499564, Curso = Biologia, Endereço = getulio Vargas, 0, baeta, sbc, sp, 9751250
+Aluno, Nome = maria, CPF = 4556, Curso = matemática, Endereço = avenida, 0, sbc, sp, sp, 123

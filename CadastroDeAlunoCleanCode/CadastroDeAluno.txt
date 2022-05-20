@@ -1,0 +1,1 @@
+Aluno, Nome = maria, CPF = 1234, Curso = desenvolvimento de sistemas, Endereço = avenida prestes maia, 582, centro, sbc, sp, 3698

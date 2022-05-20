@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Produtos>
+    <Produto id="1">
+        <Nome>manteiga</Nome>
+        <Categoria>alimento</Categoria>
+        <MarcaProduto/>
+        <Marca>president</Marca>
+        <Preco>9.0</Preco>
+    </Produto>
+    <Produto id="1">
+        <Nome>arroz</Nome>
+        <Categoria>alimento</Categoria>
+        <MarcaProduto/>
+        <Marca>camil</Marca>
+        <Preco>20.0</Preco>
+    </Produto>
+</Produtos>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<alunos>
+    <Aluno id="1">
+        <Nome>maria</Nome>
+        <CPF>1234</CPF>
+        <Curso>desenvolvimento de sistemas</Curso>
+        <Endereco>
+            <Rua>avenida prestes maia</Rua>
+            <Numero>582</Numero>
+            <Bairro>centro</Bairro>
+            <Cidade>sbc</Cidade>
+            <Estado>sp</Estado>
+            <CEP>3698</CEP>
+        </Endereco>
+    </Aluno>
+</alunos>
