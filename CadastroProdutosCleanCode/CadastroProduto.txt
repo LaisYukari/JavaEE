@@ -1,2 +1,0 @@
-Produto, Nome: manteiga, Categoria: alimento, Marca: president, Preço: 9.0
-Produto, Nome: arroz, Categoria: alimento, Marca: camil, Preço: 20.0
