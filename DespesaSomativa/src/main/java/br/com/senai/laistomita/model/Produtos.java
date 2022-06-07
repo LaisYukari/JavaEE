@@ -1,12 +1,15 @@
 package br.com.senai.laistomita.model;
 
+import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.List;
 import javax.persistence.Entity;
+
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
-
 @Entity
-public class Produtos {
+public class Produtos implements Serializable {
 	
 	@Id
 	@GeneratedValue
@@ -15,6 +18,7 @@ public class Produtos {
 	private double valorProduto;
 	
 	
+	//Atributos para modificação
 	public Integer getIdProduto() {
 		return idProduto;
 	}

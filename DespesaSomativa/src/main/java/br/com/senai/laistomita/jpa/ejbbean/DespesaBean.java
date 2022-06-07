@@ -1,4 +1,6 @@
 package br.com.senai.laistomita.jpa.ejbbean;
+import java.util.List;
+
 //bean da logica de negocio, com objeto, banco de dados
 import javax.ejb.Stateless;
 import javax.persistence.EntityManager;
@@ -8,8 +10,13 @@ import br.com.senai.laistomita.model.Despesas;
 @Stateless //tipo de bean
 public class DespesaBean {
 
-	@PersistenceContext  //jpa faz por "trás", realiza a conexão com o banco de dados
+	@PersistenceContext  //JPA manipula por "trás" e realiza a conexão com o banco de dados
 	private EntityManager em; //classe jpa, conexao com o banco //em é a entidade gerenciadora
+	
+	public List<Despesas> listar() { //carrega todos os pedidos, listagem
+		return em.createQuery("SELECT p FROM Pedido p", Despesas.class).getResultList();
+	}
+	
 	
 	public void excluir(Despesas despesas) {  
 		despesas = carregar(despesas.getId());  
