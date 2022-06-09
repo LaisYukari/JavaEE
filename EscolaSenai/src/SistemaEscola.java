@@ -1,4 +1,4 @@
-
+<--!adiçaõ de atributos-->
 public class SistemaEscola {
 
 	public String[] nome = new String[5];
